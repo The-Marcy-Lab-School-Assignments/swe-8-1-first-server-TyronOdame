@@ -1,0 +1,29 @@
+{
+  "name": "swe-8-1-first-server-tyronodame",
+  "version": "1.0.0",
+  "description": "Deployment Link:",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Marcy-Lab-School-Assignments/swe-8-1-first-server-TyronOdame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/The-Marcy-Lab-School-Assignments/swe-8-1-first-server-TyronOdame/issues"
+  },
+  "homepage": "https://github.com/The-Marcy-Lab-School-Assignments/swe-8-1-first-server-TyronOdame#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
