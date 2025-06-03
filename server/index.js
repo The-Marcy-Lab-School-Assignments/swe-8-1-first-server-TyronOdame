@@ -2,6 +2,12 @@ const express = require('express');
 
 const app = express();
 
+const path = require('path');
+
+const fileName = path.join(__dirname, '../app/dist/');
+
+const serveStatic = express.static(fileName);
+
 // Middleware to log requests
 const logRoutes = (req, res, next) => {
   const time = new Date().toLocaleString();
@@ -9,6 +15,7 @@ const logRoutes = (req, res, next) => {
   next();
 };
 app.use(logRoutes);
+app.use(serveStatic);
 
 const serverJoke = (req, res) => {
   res.json({

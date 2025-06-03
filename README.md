@@ -57,9 +57,9 @@ You got this!
 
 - [x] A `logRoutes` middleware controller prints the request method, url, and time of request for every request sent to the server, and then invokes the `next()` middleware in the chain.
 - [x] The server has a `GET /api/joke` endpoint that responds with a joke of your choosing!
-- [ ] The server has a `GET /api/picture` endpoint that responds with the URL of a picture of your choosing (use a URL from the internet!)
-- [ ] The server has a `GET /api/rollDie` endpoint that responds with an array containing a random dice roll.
-- [ ] The `GET /api/rollDie` endpoint uses a `?quantity=` query parameter to specif the number of die rolls to be added to the `rolls` array.
+- [x] The server has a `GET /api/picture` endpoint that responds with the URL of a picture of your choosing (use a URL from the internet!)
+- [x] The server has a `GET /api/rollDie` endpoint that responds with an array containing a random dice roll.
+- [x] The `GET /api/rollDie` endpoint uses a `?quantity=` query parameter to specif the number of die rolls to be added to the `rolls` array.
 
 **Static Assets Requirements**
 
